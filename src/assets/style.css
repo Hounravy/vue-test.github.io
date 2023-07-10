@@ -1,0 +1,304 @@
+@media only screen and (max-width:1732px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* For screen 17 inch */
+    .container-you {
+        background-image: url("/src/assets/img/bg.png");
+        width: 100%;
+        height: 89vh;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+
+    .lig {
+        position: absolute;
+        z-index: 2;
+        bottom: -65px;
+        width: 250px;
+    }
+
+    .cash {
+        position: relative;
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 40vh;
+    }
+
+    .cash img {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .bu-bg {
+        background-image: url("/src/assets/img/bg.png");
+        background-size: cover;
+        width: 450px;
+        position: absolute;
+        top: 330px;
+        cursor: pointer;
+        z-index: 30;
+        left: 50px;
+    }
+
+    .banner img {
+        width: 800px;
+        height: 400px;
+    }
+
+    .banner {
+        position: absolute;
+        right: 67px;
+        top: 64px;
+    }
+
+    .girl img {
+        position: absolute;
+        top: 80px;
+        right: 150px;
+        height: 100%;
+
+    }
+
+    .bobo {
+        position: absolute;
+        top: 60px;
+        left: 40px;
+
+    }
+
+    .content2 {
+        padding: 0;
+    }
+
+    .text-conten {
+        bottom: 10px;
+    }
+
+    .text-conten {
+        position: absolute;
+        bottom: 55px;
+        z-index: 20;
+        right: 140px;
+
+    }
+
+    .text-conten2 {
+        display: none;
+    }
+
+    .button-text button {
+        padding: 0;
+        border: 6px solid rgb(227, 217, 217);
+        border-radius: 40px;
+        animation: fadeInOut 7s ease-in-out infinite;
+    }
+
+    @keyframes fadeInOut {
+        0% {
+            opacity: 0;
+            border: 10px solid rgb(234, 170, 9);
+        }
+
+        50% {
+            opacity: 1;
+            border: 8px solid rgb(90, 65, 3);
+            background-image: url(/src/assets/img/cash.png);
+            background-color: rgb(234, 170, 9);
+
+
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+
+
+    .cash2 {
+        display: none;
+    }
+
+}
+
+/* for screen 14 inch */
+@media only screen and (max-width: 1440px) {
+    .text-conten {
+        bottom: 10px;
+    }
+
+    .bu-bg {
+        top: 450px;
+        left: 60px;
+    }
+
+}
+
+/* for screen  8 inch */
+
+@media screen and (max-device-width :834px) {
+    .container-you {
+        height: 1194px;
+        overflow: hidden;
+
+
+    }
+
+    .text-conten {
+        display: none;
+
+    }
+
+    .text-conten img {
+        display: none;
+    }
+
+    .text-conten2 {
+
+        position: absolute;
+    }
+
+    .lig {
+        display: none;
+    }
+
+    .girl img {
+        position: absolute;
+        right: 50px;
+        height: 60%;
+        top: 600px;
+        z-index: 20;
+
+    }
+
+    .cash {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 40vh;
+    }
+
+    .cash img {
+        position: relative;
+        width: 100%;
+        height: 40%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .banner {
+        right: 5px;
+        top: 550px;
+    }
+
+    .bobo {
+        position: absolute;
+        top: 1040px;
+        left: 450px;
+        z-index: 30;
+
+    }
+
+    .bobo img {
+        width: 130px;
+
+    }
+
+    .bu-bg {
+        top: 450px;
+        left: 200px;
+    }
+
+    .text-conten2 {
+        display: block;
+        margin-top: 250px;
+        margin-left: 139px;
+    }
+
+    .text-conten2 img {
+        width: 550px;
+
+    }
+
+}
+
+/* iPhone 14 */
+@media only screen and (max-device-width : 390px) {
+    .cash {
+        display: none;
+    }
+
+    .bu-bg {
+        top: 280px;
+        left: 50px;
+        width: 270px;
+    }
+
+    .bu-bg img {
+        width: 240px;
+    }
+
+    .banner {
+        right: 5px;
+        top: 400px;
+    }
+
+    .banner img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .girl img {
+        position: absolute;
+        right: 15px;
+        height: 40%;
+        top: 400px;
+        z-index: 2;
+
+    }
+
+    .text-conten2 img {
+        width: 280px;
+
+    }
+
+    .text-conten2 {
+        margin-top: 130px;
+        margin-left: 60px;
+    }
+
+    .bobo img {
+        width: 100px;
+
+    }
+
+    .bobo {
+        position: absolute;
+        top: 700px;
+        left: 140px;
+        z-index: 30;
+
+    }
+
+    .cash2 {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        z-index: 3;
+
+    }
+}
